@@ -1,1 +1,59 @@
-/* Stylesheet */
+/* BODY  - GLOBAL AND STRUCTURE */
+
+.home {
+	background: tomato;
+	}
+	
+.gallery {
+	background: teal;
+	}
+	
+.container {
+	background: #FF3;
+	margin: 0 auto 0 auto;
+	overflow: auto;
+	width: 960px;
+	}
+
+/* NAV */
+
+.home #home {
+	background: red;
+	font-weight: bold;
+	}
+	
+.gallery #gallery {
+	background: red;
+	font-weight: bold;
+	}
+	
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	}
+
+nav li {
+	background: #fff;
+	list-style: none;
+	margin: 10px;
+	padding: 20px;
+}
+	
+/* GALLERY */
+section {
+	background: aliceblue;
+	border: 10px solid #fff;
+	float: left;
+	margin: 20px;
+}
+
+section {
+	position: relative;
+}
+
+section h3 {
+	position: absolute;
+	top: 0;
+	right: -50px;
+	}
